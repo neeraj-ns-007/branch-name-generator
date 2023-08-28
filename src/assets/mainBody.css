@@ -14,9 +14,6 @@
 }
 .main-wrapper .main-container .branch-name-out {
   box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   width: 100%;
   padding: 3rem 0.5rem;
 }
@@ -25,17 +22,17 @@
   width: 96.5%;
   background-color: #e9ecef;
   border: 1px solid #ced4da;
-  border-radius: 4px;
+  border-radius: 0.25rem;
   padding: 0 0.75rem;
-  font-size: 18px;
+  font-size: 1rem;
   font-family: "Roboto";
+  margin-bottom: 3rem;
 }
 .main-wrapper .main-container .branch-name-out input[type=text]:focus {
   outline: none;
 }
 .main-wrapper .main-container .branch-name-out .branch-name {
   box-sizing: border-box;
-  margin-top: 3rem;
   height: 6rem;
   width: 100%;
   background-color: #e9ecef;
