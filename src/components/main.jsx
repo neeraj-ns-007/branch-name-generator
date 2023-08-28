@@ -77,7 +77,9 @@ const Main = () => {
                         <TextField id="outlined-basic" label="Ticket ID" variant="outlined" size='small' inputProps={{ style: { textTransform: 'uppercase' } }} sx={{ margin: '0.5rem' }} onChange={handleTicket}/>
                     </div>
                     <div className="branch-name-out">
+                        <span>Enter Branch Name</span>
                         <input type="text" onChange={handleBranchName}/>
+                        <span>Formatted Branch Name</span>
                         <div ref={branchNameRef} className='branch-name'>{branchType + sep + ticketId.toUpperCase() + branchName}</div>
                     </div>
 
