@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/branch-name-generator/static/css/main.78c18769.css",
-    "main.js": "/branch-name-generator/static/js/main.9ec0f1be.js",
+    "main.css": "/branch-name-generator/static/css/main.a48dab77.css",
+    "main.js": "/branch-name-generator/static/js/main.daccd413.js",
     "static/js/787.6ccf44dc.chunk.js": "/branch-name-generator/static/js/787.6ccf44dc.chunk.js",
     "static/media/roboto-latin-400-normal.woff2": "/branch-name-generator/static/media/roboto-latin-400-normal.b009a76ad6afe4ebd301.woff2",
     "static/media/roboto-cyrillic-ext-400-normal.woff2": "/branch-name-generator/static/media/roboto-cyrillic-ext-400-normal.804378952da8a10faae2.woff2",
@@ -18,12 +18,12 @@
     "static/media/roboto-greek-ext-400-normal.woff2": "/branch-name-generator/static/media/roboto-greek-ext-400-normal.169619821ea93019d1bb.woff2",
     "static/media/roboto-greek-ext-400-normal.woff": "/branch-name-generator/static/media/roboto-greek-ext-400-normal.f708607d2a7290fb8bfa.woff",
     "index.html": "/branch-name-generator/index.html",
-    "main.78c18769.css.map": "/branch-name-generator/static/css/main.78c18769.css.map",
-    "main.9ec0f1be.js.map": "/branch-name-generator/static/js/main.9ec0f1be.js.map",
+    "main.a48dab77.css.map": "/branch-name-generator/static/css/main.a48dab77.css.map",
+    "main.daccd413.js.map": "/branch-name-generator/static/js/main.daccd413.js.map",
     "787.6ccf44dc.chunk.js.map": "/branch-name-generator/static/js/787.6ccf44dc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.78c18769.css",
-    "static/js/main.9ec0f1be.js"
+    "static/css/main.a48dab77.css",
+    "static/js/main.daccd413.js"
   ]
 }
