@@ -32,14 +32,18 @@ const Main = () => {
         setTicketId(event.target.value);
     }
     const handleBranchName = (event) => {
-        let bName = ' ' + event.target.value;
-        setBranchName(bName.replace(/ /g, divider));
+        if (ticketId.length === 0) {
+            setBranchName(event.target.value.replace(/ /g, divider));
+        } else {
+            let bName = ' ' + event.target.value;
+            setBranchName(bName.replace(/ /g, divider));
+        }
     }
 
     const handleClick = () => {
         navigator.clipboard.writeText(branchNameRef.current.innerHTML);
         setOpen(true);
-      };
+    };
 
     const handleClose = (reason) => {
         if (reason === 'clickaway') {
@@ -78,7 +82,7 @@ const Main = () => {
                     </div>
                     <div className="branch-name-out">
                         <span>Enter Branch Name</span>
-                        <input type="text" onChange={handleBranchName}/>
+                        <input type="text" onChange={handleBranchName} />
                         <span>Formatted Branch Name</span>
                         <div ref={branchNameRef} className='branch-name'>{branchType + sep + ticketId.toUpperCase() + branchName}</div>
                     </div>
