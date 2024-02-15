@@ -7,11 +7,22 @@
         width: 50%;
         margin: auto;
 
+        @media screen and (max-width: 480px) {
+            width: 100%;
+            padding-top: 2rem;
+        }
+
         .button-group {
             display: flex;
             flex-direction: row;
-           justify-content: center;
-           align-items: center;
+            justify-content: center;
+            align-items: center;
+            @media screen and (max-width: 480px) {
+                flex-wrap: wrap;
+                div {
+                    width: 100%;
+                }
+            }
         }
 
         .branch-name-out {
@@ -19,9 +30,14 @@
             width: 100%;
             padding: 3rem 0.5rem;
 
+            @media screen and (max-width: 480px) {
+                padding: 2rem 0.5rem;
+            }
+
             input[type=text] {
                 height: 2rem;
                 width: 96.5%;
+                padding-inline: 0;
                 background-color: #e9ecef;
                 border: 1px solid #ced4da;
                 border-radius: 0.25rem;
@@ -32,6 +48,11 @@
 
                 &:focus {
                     outline: none;
+                }
+
+                @media screen and (max-width: 480px) {
+                    width: 100%;
+                    margin-bottom: 1rem;
                 }
             }
 
